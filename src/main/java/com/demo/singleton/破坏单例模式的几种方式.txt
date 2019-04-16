@@ -1,0 +1,22 @@
+思考破坏单例模式的方式有哪些？
+1.反射破坏
+  原因:当使用反射的方式获取到单例类的构造方式,并设置构造方法的setAccessible为true时,就可以创建多个对象
+  解决方案:在私有构造方法中,判断返回的类实例是否存在.例如
+   private LazyInnerClassSingleton(){
+      if (LazyHolder.LAZY!=null){
+          throw new RuntimeException("不允许创建多个实例");
+      }
+   }
+
+2.序列化破坏
+  原理:由于对象的生命周期,不可能超出jvm的生命周期范围.当jvm关闭时,对象必然被销毁.有时,我们在jvm关闭后任需保持对象的状态,在下次程序运行加载时使用
+  这时候,就需要使用使用到序列化方式.但是反序列化后的对象会重新分配内存,即重新创建。
+
+  解决方案:在单例类中实现readResolve()方法
+    private Object readResolve(){
+          return instance;
+      }
+3.原型模式对单例的破坏
+  原因:原型模式和单例模式本身产生冲突
+  结局方案:1.单例类不实现cloneable接口
+       2.实现cloneable接口,在clone方法中调用单例的getInstance方法,返回单例对象.
