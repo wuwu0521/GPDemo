@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 //×¢²áÊ½µ¥Àý
-public class ContainerSingleton {
+public class ContainerSingleton{
 
 	private ContainerSingleton() {
 	};
