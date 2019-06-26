@@ -7,10 +7,10 @@
 * @date 2019Äê5ÔÂ7ÈÕ  
 * @version V1.0  
 */
-package com.demo.observer;
+package com.demo.design.observer;
 
-import com.demo.observer.gava.GuavaGPer;
-import com.demo.observer.jdk.Question;
+import com.demo.design.observer.gava.GuavaGPer;
+import com.demo.design.observer.jdk.Question;
 import com.google.common.eventbus.EventBus;
 
 public class TestGuavaObserver {

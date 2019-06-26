@@ -7,11 +7,11 @@
 * @date 2019Äê5ÔÂ5ÈÕ  
 * @version V1.0  
 */
-package com.demo.observer;
+package com.demo.design.observer;
 
-import com.demo.observer.jdk.event.Mouse;
-import com.demo.observer.jdk.event.MouseEventCallback;
-import com.demo.observer.jdk.event.MouseEventType;
+import com.demo.design.observer.jdk.event.Mouse;
+import com.demo.design.observer.jdk.event.MouseEventCallback;
+import com.demo.design.observer.jdk.event.MouseEventType;
 
 public class TestEventObserver {
 

@@ -7,7 +7,7 @@
 * @date 2019Äê4ÔÂ22ÈÕ  
 * @version V1.0  
 */
-package com.demo.delegate.simple;
+package com.demo.design.delegate.simple;
 
 import java.util.HashMap;
 import java.util.Map;

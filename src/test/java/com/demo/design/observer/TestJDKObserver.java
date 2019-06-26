@@ -7,11 +7,11 @@
 * @date 2019Äê5ÔÂ4ÈÕ  
 * @version V1.0  
 */
-package com.demo.observer;
+package com.demo.design.observer;
 
-import com.demo.observer.jdk.GPer;
-import com.demo.observer.jdk.Question;
-import com.demo.observer.jdk.Teacher;
+import com.demo.design.observer.jdk.GPer;
+import com.demo.design.observer.jdk.Question;
+import com.demo.design.observer.jdk.Teacher;
 
 public class TestJDKObserver {
 

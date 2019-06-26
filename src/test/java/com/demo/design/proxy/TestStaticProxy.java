@@ -7,10 +7,10 @@
 * @date 2019Äê4ÔÂ19ÈÕ  
 * @version V1.0  
 */
-package com.demo.proxy;
+package com.demo.design.proxy;
 
-import com.demo.proxy.staticproxy.Father;
-import com.demo.proxy.staticproxy.Son;
+import com.demo.design.proxy.staticproxy.Father;
+import com.demo.design.proxy.staticproxy.Son;
 
 public class TestStaticProxy {
 

@@ -7,9 +7,9 @@
 * @date 2019Äê5ÔÂ7ÈÕ  
 * @version V1.0  
 */
-package com.demo.observer;
+package com.demo.design.observer;
 
-import com.demo.observer.gava.GuavaEvent;
+import com.demo.design.observer.gava.GuavaEvent;
 import com.google.common.eventbus.EventBus;
 
 public class TestGuavaEvent {

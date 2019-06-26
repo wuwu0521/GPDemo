@@ -7,9 +7,9 @@
 * @date 2019Äê4ÔÂ16ÈÕ  
 * @version V1.0  
 */
-package com.demo.singleton;
+package com.demo.design.singleton;
 
-import com.demo.singleton.register.ContainerSingleton;
+import com.demo.design.singleton.register.ContainerSingleton;
 
 public class TestContainerSingleton {
 
@@ -19,7 +19,7 @@ public class TestContainerSingleton {
 			ConcurrentExecutor.execute(new ConcurrentExecutor.RunHandler() {
 				@Override
 				public void handler() {
-					Object obj = ContainerSingleton.getInstance("com.demo.singleton.User");
+					Object obj = ContainerSingleton.getInstance("User");
 					System.out.println(System.currentTimeMillis()+":"+obj);
 				}
 			 },10,6);

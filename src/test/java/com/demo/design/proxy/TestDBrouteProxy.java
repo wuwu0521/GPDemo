@@ -7,17 +7,16 @@
 * @date 2019Äê4ÔÂ19ÈÕ  
 * @version V1.0  
 */
-package com.demo.proxy;
+package com.demo.design.proxy;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import com.demo.proxy.dbrouteproxy.order.Order;
-import com.demo.proxy.dbrouteproxy.order.OrderService;
-import com.demo.proxy.dbrouteproxy.order.OrderServiceImpl;
-import com.demo.proxy.dbrouteproxy.proxy.OrderDynamicProxy;
-import com.demo.proxy.dbrouteproxy.proxy.OrderStaticProxy;
+import com.demo.design.proxy.dbrouteproxy.order.Order;
+import com.demo.design.proxy.dbrouteproxy.order.OrderService;
+import com.demo.design.proxy.dbrouteproxy.order.OrderServiceImpl;
+import com.demo.design.proxy.dbrouteproxy.proxy.OrderDynamicProxy;
 
 public class TestDBrouteProxy {
 

@@ -7,10 +7,10 @@
 * @date 2019Äê4ÔÂ15ÈÕ  
 * @version V1.0  
 */
-package com.demo.factory.factorymethod;
+package com.demo.design.factory.factorymethod;
 
-import com.demo.factory.Multiplication;
-import com.demo.factory.Operation;
+import com.demo.design.factory.Multiplication;
+import com.demo.design.factory.Operation;
 
 public class MultiplicationFactory implements OperationFactory{
 

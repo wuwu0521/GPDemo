@@ -7,7 +7,7 @@
 * @date 2019Äê4ÔÂ22ÈÕ  
 * @version V1.0  
 */
-package com.demo.strategy.promotion;
+package com.demo.design.delegate.simple;
 
 public interface Class {
 

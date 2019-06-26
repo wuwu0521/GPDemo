@@ -7,10 +7,10 @@
 * @date 2019Äê4ÔÂ15ÈÕ  
 * @version V1.0  
 */
-package com.demo.factory;
+package com.demo.design.factory;
 
-import com.demo.factory.abstactfactory.AddAbstactFactory;
-import com.demo.factory.abstactfactory.OpeAbstactFactory;
+import com.demo.design.factory.abstactfactory.AddAbstactFactory;
+import com.demo.design.factory.abstactfactory.OpeAbstactFactory;
 
 public class TestAbstactFactory {
 

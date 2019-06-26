@@ -7,7 +7,7 @@
 * @date 2019Äê4ÔÂ23ÈÕ  
 * @version V1.0  
 */
-package com.demo.delegate.mvc;
+package com.demo.design.delegate.mvc;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;

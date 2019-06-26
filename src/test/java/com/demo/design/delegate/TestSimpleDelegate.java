@@ -7,10 +7,10 @@
 * @date 2019Äê4ÔÂ23ÈÕ  
 * @version V1.0  
 */
-package com.demo.delegate;
+package com.demo.design.delegate;
 
-import com.demo.delegate.simple.Master;
-import com.demo.delegate.simple.Teacher;
+import com.demo.design.delegate.simple.Master;
+import com.demo.design.delegate.simple.Teacher;
 
 public class TestSimpleDelegate {
 
