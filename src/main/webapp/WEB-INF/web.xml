@@ -4,19 +4,32 @@
 	xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
 	version="2.4">
-	<display-name>Gupao Web Application</display-name>
+	<display-name>GPDemo Web Application</display-name>
 
 
-	<servlet>
+	<!--<servlet>
 		<servlet-name>delegateServlet</servlet-name>
-		<servlet-class>com.demo.delegate.mvc.DispatcherServlet</servlet-class>
+		<servlet-class>com.demo.design.delegate.mvc.DispatcherServlet</servlet-class>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 
 	<servlet-mapping>
 		<servlet-name>delegateServlet</servlet-name>
 		<url-pattern>/*</url-pattern>
-	</servlet-mapping>
+	</servlet-mapping>-->
+	<servlet>
+		<servlet-name>GPMVC</servlet-name>
+		<servlet-class>com.demo.spring.framework.servlet.GPDispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>classpath:application.properties</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+<servlet-mapping>
+	<servlet-name>GPMVC</servlet-name>
+	<url-pattern>/*</url-pattern>
+</servlet-mapping>
 
 </web-app>
 
